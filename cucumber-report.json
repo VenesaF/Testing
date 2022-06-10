@@ -1,0 +1,71 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "can-close-the-form-when-its-empty;user-wants-to-close-the-form-when-its-empty",
+        "keyword": "Scenario",
+        "line": 2,
+        "name": "User wants to close the form when its empty",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1456169899.9999998
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 3,
+            "name": "User get in the application",
+            "match": {
+              "location": "features\\support\\closeFormFeature.js:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1135145399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 4,
+            "name": "User open the add to-do form and than click close button",
+            "match": {
+              "location": "features\\support\\closeFormFeature.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4974435799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 5,
+            "name": "The add to do form is closed",
+            "match": {
+              "location": "features\\support\\closeFormFeature.js:42"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1002722199
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "can-close-the-form-when-its-empty",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Can close the form when its empty",
+    "tags": [],
+    "uri": "features\\closeForm.feature"
+  }
+]
